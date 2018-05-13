@@ -45,8 +45,16 @@
 		            <li opCode="0301">
 		                <a tabindex="-1" href="javascript:goPage('admin/log/mainPage')"><span class="mm-text">用户日志</span></a>
 		            </li>
-		        </ul>
+				</ul>
 		    </li>
+			<li class="mm-dropdown" opCode="04">
+				<a href="#"><i class="menu-icon fa fa-barcode"></i><span class="mm-text">库存管理</span></a>
+				<ul>
+					<li opCode="0401">
+						<a tabindex="-1" href="javascript:goPage('admin/goods/mainPage')"><span class="mm-text">库存管理</span></a>
+					</li>
+				</ul>
+			</li>
 		</ul>
 	</div>
 </div>
